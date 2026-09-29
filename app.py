@@ -5,6 +5,7 @@ from openai import OpenAI
 
 st.set_page_config(page_title = "철도 민원 AI 어시스턴트", layout = "wide")
 
+OPENAI_API_KEY
 client = OpenAI(api_key = OPENAI_API_KEY)
 
 def classify_complaint(text):
